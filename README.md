@@ -43,10 +43,9 @@
 ## 目录结构
 
 ```
-cv实验一/
-├── 猫狗数据集100张.zip          # 原始数据（cat.N.jpg / dog.N.jpg）
+cv-cat-dog-classification/
 ├── 实验报告.docx                # 课程实验报告（封面 + 9 章正文 + 2 个附录，16 图 8 表）
-├── data/raw/                    # 解压后的 100 张图像
+├── data/raw/                    # 100 张图像（cat.N.jpg / dog.N.jpg）
 ├── src/
 │   ├── config.py                # 超参数与路径（唯一配置入口）
 │   ├── prepare_data.py          # 解压 + 数据集统计
@@ -72,7 +71,8 @@ cv实验一/
 
 ```bash
 # 0) 获取代码
-git clone <本仓库地址>.git && cd <仓库名>
+git clone https://github.com/hyanzhih/cv-cat-dog-classification.git
+cd cv-cat-dog-classification
 pip install -r requirements.txt
 
 # 1) 一键复现主实验（解压数据 → 5 折交叉验证 → 最终模型 → 全部图表），约 2 分钟
