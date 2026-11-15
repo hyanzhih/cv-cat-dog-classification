@@ -71,6 +71,10 @@ cv实验一/
 ## 快速开始
 
 ```bash
+# 0) 获取代码
+git clone <本仓库地址>.git && cd <仓库名>
+pip install -r requirements.txt
+
 # 1) 一键复现主实验（解压数据 → 5 折交叉验证 → 最终模型 → 全部图表），约 2 分钟
 python src/run_all.py
 
