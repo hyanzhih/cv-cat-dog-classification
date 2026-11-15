@@ -1,0 +1,13 @@
+# 统一换行符，避免 Windows/Linux 协作时整文件 diff
+* text=auto
+*.py   text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
+*.csv  text eol=lf
+
+# 二进制文件不做换行转换
+*.jpg  binary
+*.png  binary
+*.docx binary
+*.pth  binary
+*.zip  binary

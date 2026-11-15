@@ -1,0 +1,19 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---------- 工具/编辑器缓存 ----------
+.workbuddy/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ---------- 原始压缩包（data/raw 已解压，无需重复上传） ----------
+*.zip
+
+# ---------- 日志（逐折训练曲线 CSV 保留，便于对照复现） ----------
+*.log
